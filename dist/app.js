@@ -1,17 +1,17 @@
 // Import delle classi
+import { Formazione } from "./types/types.js";
 import { Partecipante, Corso, Azienda } from "./class/class.js";
 // Creazione Istanze Migranti
-const migrante1 = new Partecipante("Amina", "Rahmani", "Marocco", "Laurea in Scienze Dell'educazione", "Arabo (madrelingua), Francese (ottimo), Italiano (intermedio)", "Educazione e pedagogia sociale");
-const migrante2 = new Partecipante("Oleksandr", "Petrenko", "Ucraina", "Diploma tecnico industriale", "Ucraino (madrelingua), Russo (fluente), Italiano (base)", "Meccanica industriale");
-const migrante3 = new Partecipante("Laila", "Hassan", "Sudan", "Laurea triennale in Economia", "Arabo (madrelingua), Inglese (buono), Italiano (buono)", "Sanità e assistenza infermieristica");
-const migrante4 = new Partecipante("José Antonio", "Rodríguez", "Venezuela", "Laurea in Scienze Dell'educazione", "Spagnolo (madrelingua), Inglese (avanzato), Italiano (intermedio)", "Contabilità");
-const migrante5 = new Partecipante("Samira", "Qureshi", "Pakistan", "Diploma di Ragioneria", "Urdu (madrelingua), Inglese (buono), Italiano (base)", "Contabilità");
-const migrante6 = new Partecipante("Dawit", "Tesfaye", "Etiopia", "Laurea in Scienze Dell'educazione", "Amarico (madrelingua), Inglese (avanzato), Italiano (intermedio)", "Informatica");
-const migrante7 = new Partecipante("Lina", "Abdallah", "Siria", "Laurea in Psicologia", "Arabo (madrelingua), Inglese (buono), Italiano (intermedio)", "Educazione e supporto psicologico");
-const migrante8 = new Partecipante("Carlos", "Mendoza", "Perù", "Diploma tecnico in Elettronica", "Spagnolo (madrelingua), Inglese (base), Italiano (intermedio)", "Manutenzione elettrica e impiantistica");
-const migrante9 = new Partecipante("Fatou", "Diop", "Senegal", "Diploma superiore in Commercio", "Francese (madrelingua), Wolof (madrelingua), Italiano (base)", "Vendita e amministrazione");
-const migrante10 = new Partecipante("Nadia", "Khalil", "Egitto", "Laurea in Informatica", "Arabo (madrelingua), Inglese (avanzato), Italiano (intermedio)", "Sviluppo software e tecnologie digitali");
-const migrante11 = new Partecipante("Andrej", "Novak", "Serbia", "Laurea breve in Economia Aziendale", "Serbo (madrelingua), Inglese (avanzato), Italiano (intermedio)", "Gestione aziendale e contabilità");
+const migrante1 = new Partecipante("Amina", "Rahmani", "Marocco", "Laurea in Scienze Dell'educazione", "Arabo (madrelingua), Francese (ottimo), Italiano (intermedio)", Formazione.EDU);
+const migrante2 = new Partecipante("Oleksandr", "Petrenko", "Ucraina", "Diploma tecnico industriale", "Ucraino (madrelingua), Russo (fluente), Italiano (base)", Formazione.MEC);
+const migrante3 = new Partecipante("Laila", "Hassan", "Sudan", "Laurea triennale in Economia", "Arabo (madrelingua), Inglese (buono), Italiano (buono)", Formazione.CONT);
+const migrante4 = new Partecipante("José Antonio", "Rodríguez", "Venezuela", "Laurea in Scienze Dell'educazione", "Spagnolo (madrelingua), Inglese (avanzato), Italiano (intermedio)", Formazione.CONT);
+const migrante5 = new Partecipante("Samira", "Qureshi", "Pakistan", "Diploma di Ragioneria", "Urdu (madrelingua), Inglese (buono), Italiano (base)", Formazione.CONT);
+const migrante6 = new Partecipante("Dawit", "Tesfaye", "Etiopia", "Laurea in Scienze Dell'educazione", "Amarico (madrelingua), Inglese (avanzato), Italiano (intermedio)", Formazione.WEB);
+const migrante7 = new Partecipante("Lina", "Abdallah", "Siria", "Laurea in Psicologia", "Arabo (madrelingua), Inglese (buono), Italiano (intermedio)", Formazione.SAN);
+const migrante8 = new Partecipante("Carlos", "Mendoza", "Perù", "Diploma tecnico in Elettronica", "Spagnolo (madrelingua), Inglese (base), Italiano (intermedio)", Formazione.ELET);
+const migrante9 = new Partecipante("Fatou", "Diop", "Senegal", "Diploma superiore in Commercio", "Francese (madrelingua), Wolof (madrelingua), Italiano (base)", Formazione.CONT);
+const migrante10 = new Partecipante("Nadia", "Khalil", "Egitto", "Laurea in Informatica", "Arabo (madrelingua), Inglese (avanzato), Italiano (intermedio)", Formazione.WEB);
 // Creazione Corsi
 const corso1 = new Corso("Educatore interculturale e mediatore sociale", "Formazione per lavorare in attività di inclusione e supporto scolastico", "Educazione e pedagogia sociale", 4);
 const corso2 = new Corso("Tecnico manutentore meccanico-industriale", "Corso pratico per apprendere le competenze di manutenzione di macchinari industriali", "Meccanica Industriale", 6);

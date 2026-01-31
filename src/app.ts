@@ -1,43 +1,39 @@
 // Import delle classi
-
+import { Formazione } from "./types/types.js";
 import { Partecipante, Corso, Azienda } from "./class/class.js";
-
 
 // Creazione Istanze Migranti
 
 const migrante1 = new Partecipante(
     "Amina", "Rahmani", "Marocco", "Laurea in Scienze Dell'educazione",
-    "Arabo (madrelingua), Francese (ottimo), Italiano (intermedio)", "Educazione e pedagogia sociale",);
+    "Arabo (madrelingua), Francese (ottimo), Italiano (intermedio)", Formazione.EDU);
 
 const migrante2 = new Partecipante("Oleksandr", "Petrenko", "Ucraina", "Diploma tecnico industriale",
-    "Ucraino (madrelingua), Russo (fluente), Italiano (base)", "Meccanica industriale");
+    "Ucraino (madrelingua), Russo (fluente), Italiano (base)", Formazione.MEC);
 
 const migrante3 = new Partecipante("Laila", "Hassan", "Sudan", "Laurea triennale in Economia",
-    "Arabo (madrelingua), Inglese (buono), Italiano (buono)", "Sanità e assistenza infermieristica");
+    "Arabo (madrelingua), Inglese (buono), Italiano (buono)", Formazione.CONT);
 
 const migrante4 = new Partecipante("José Antonio", "Rodríguez", "Venezuela", "Laurea in Scienze Dell'educazione",
-    "Spagnolo (madrelingua), Inglese (avanzato), Italiano (intermedio)", "Contabilità");
+    "Spagnolo (madrelingua), Inglese (avanzato), Italiano (intermedio)", Formazione.CONT);
 
 const migrante5 = new Partecipante("Samira", "Qureshi", "Pakistan", "Diploma di Ragioneria",
-    "Urdu (madrelingua), Inglese (buono), Italiano (base)", "Contabilità");
+    "Urdu (madrelingua), Inglese (buono), Italiano (base)", Formazione.CONT);
 
 const migrante6 = new Partecipante("Dawit", "Tesfaye", "Etiopia", "Laurea in Scienze Dell'educazione",
-    "Amarico (madrelingua), Inglese (avanzato), Italiano (intermedio)", "Informatica");
+    "Amarico (madrelingua), Inglese (avanzato), Italiano (intermedio)", Formazione.WEB);
 
 const migrante7 = new Partecipante("Lina", "Abdallah", "Siria", "Laurea in Psicologia",
-    "Arabo (madrelingua), Inglese (buono), Italiano (intermedio)", "Educazione e supporto psicologico");
+    "Arabo (madrelingua), Inglese (buono), Italiano (intermedio)", Formazione.SAN);
 
 const migrante8 = new Partecipante("Carlos", "Mendoza", "Perù", "Diploma tecnico in Elettronica",
-    "Spagnolo (madrelingua), Inglese (base), Italiano (intermedio)", "Manutenzione elettrica e impiantistica");
+    "Spagnolo (madrelingua), Inglese (base), Italiano (intermedio)", Formazione.ELET);
 
 const migrante9 = new Partecipante("Fatou", "Diop", "Senegal", "Diploma superiore in Commercio",
-    "Francese (madrelingua), Wolof (madrelingua), Italiano (base)", "Vendita e amministrazione");
+    "Francese (madrelingua), Wolof (madrelingua), Italiano (base)", Formazione.CONT);
 
 const migrante10 = new Partecipante("Nadia", "Khalil", "Egitto", "Laurea in Informatica",
-    "Arabo (madrelingua), Inglese (avanzato), Italiano (intermedio)", "Sviluppo software e tecnologie digitali");
-
-const migrante11 = new Partecipante("Andrej", "Novak", "Serbia", "Laurea breve in Economia Aziendale",
-    "Serbo (madrelingua), Inglese (avanzato), Italiano (intermedio)", "Gestione aziendale e contabilità");
+    "Arabo (madrelingua), Inglese (avanzato), Italiano (intermedio)", Formazione.WEB);
 
 
 // Creazione Corsi
