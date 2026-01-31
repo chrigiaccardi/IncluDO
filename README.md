@@ -8,7 +8,7 @@ L'App è stata sviluppata interamente in TypeScript che simula un servizio di fo
 * Il corso ha un elenco iscritti e viene confermata l'iscrizione;
 * L'azienda partner offre una opportunità lavorativa in base alla formazione conseguita;
 
-### Tecnologie Utilizzate
+### 🧩 Tecnologie Utilizzate
 * Enum per la selezione degli ambiti Formazione;
 * Interface per la struttura delle classi;
 * Classi per Partecipanti, Corsi ed Aziende partner
@@ -16,10 +16,10 @@ L'App è stata sviluppata interamente in TypeScript che simula un servizio di fo
 * Istanze per Partecipanti, Corsi ed Aziende
 * Utilizzo di CodePen per debug finale
 
-## Vai al Debug CodePen
+## 💻 Vai al Debug CodePen
 [Link CodePen **IncluDO**](https://codepen.io/chrigiaccardi/pen/qENoayE?editors=1111)
 
-## Contatti
+## 📩 Contatti
 
 Christian Giaccardi - 📧 [chrigiaccardi@gmail.com](mailto:chrigiaccardi@gmail.com) <br>
 GitHub - [chrigiaccardi](https://github.com/chrigiaccardi) <br>
