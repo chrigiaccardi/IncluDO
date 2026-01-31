@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-"dev": "concurrently tsc -w live-server dist --watch=dist --open",
+    "dev": "concurrently tsc -w live-server dist --watch=dist --open",
     "build": "tsc",
     "preview": "npm run build && live-server dist --open"
   },
