@@ -1,0 +1,28 @@
+{
+  "name": "includo-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+"dev": "concurrently tsc -w live-server dist --watch=dist --open",
+    "build": "tsc",
+    "preview": "npm run build && live-server dist --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrigiaccardi/IncluDO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chrigiaccardi/IncluDO/issues"
+  },
+  "homepage": "https://github.com/chrigiaccardi/IncluDO#readme",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "concurrently": "^8.2.2",
+    "live-server": "^1.2.2"
+  }
+}
