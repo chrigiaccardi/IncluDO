@@ -2,11 +2,11 @@ export interface IPartecipante {
     nome: string;
     cognome: string;
     paeseDiOrigine: string;
-    livelloDiIstruzione: string[];
-    competenzeLinguistiche: string[];
+    livelloDiIstruzione: string;
+    competenzeLinguistiche: string;
     ambitoDiFormazione: string;
 
-    iscrivitiCorso(corso: Icorso): void;
+    iscrivitiCorso(corso: ICorso): void;
 }
 export interface ICorso {
     titoloDelCorso: string;
